@@ -1,0 +1,545 @@
+@font-face {
+    font-family: "SegoeUIBlack";
+    src: url("../fonts/seguibl.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url("../fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 71px;
+    background-color: #2ecc71;
+}
+
+.header__container_padding {
+    padding: 0 48px;
+}
+
+.navbar-brand__fitapp-link {
+    font-family: "SegoeUIBlack";
+    font-size: 32px;
+    font-style: italic;
+    letter-spacing: 5px;
+    color: #f4f4f4;
+    margin-left: 24px;
+}
+
+.navbar-brand__fitapp-link:hover {
+    color: #f4f4f4;
+}
+
+.navbar__menu {
+    margin-right: 8px;
+}
+
+.navbar__menu-link {
+    font-family: "Roboto-Regular";
+    font-size: 18px;
+    color: rgb(254, 254, 254);
+    letter-spacing: 0.5px;
+    margin-right: 37px;
+}
+
+.navbar__menu-link:hover {
+    color: black;
+}
+
+.navbar__getapp-button {
+    font-family: "Roboto-Bold";
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(46, 204, 113);
+    width: 137px;
+    border-radius: 1rem;
+    margin-right: 31px;
+}
+
+.about {
+    height: 829px;
+    background-color: #2ecc71;
+    background-image: url("../img/about__background_apple.png"), url("../img/about__background_banana.png"), url("../img/about__background_tomato.png"), url("../img/about__background_small_apple.png"), url("../img/about__background_berry.png");
+    background-repeat: no-repeat;
+    background-position: -9% 19%, 42.5% 3.5%, 97.6% 29%, 82.3% 80%, 48.9% 108%;
+}
+
+.about__background {
+    background-image: url("../img/about__background_iphone.png");
+    background-repeat: no-repeat;
+    background-position: 102% -22%;
+}
+
+.about__text-container {
+    padding-left: 74px;
+    padding-top: 196px;
+}
+
+.about__text {
+    font-family: "Roboto-Light";
+    font-size: 18px;
+    color: #f4f4f4;
+    margin-bottom: 6px;
+}
+
+.about__title {
+    color: #ffffff;
+    margin-bottom: 46px;
+}
+
+.about__subtitle {
+    font-family: "Roboto-Light";
+    font-size: 64px;
+    letter-spacing: 2.9px;
+    color: #f4f4f4;
+    margin-bottom: 6px;
+}
+
+.about__paragraph {
+    letter-spacing: 0.79px;
+    line-height: 33px;
+}
+
+.about__appstore {
+    color: #ffffff;
+    margin-top: 31px;
+}
+
+.appstore__link {
+    margin-right: 24px;
+    margin-left: 2px;
+}
+
+.features {
+    height: 895px;
+    background-color: #ffffff;
+}
+
+.features__background {
+    background-image: url("../img/features__iphone.png"), url("../img/features__background-ellipse.png"), url("../img/about__background_berry.png");
+    background-repeat: no-repeat;
+    background-position: -1% 81%, 14% 50%, 48.5% -19%;
+}
+
+.features__icon-container {
+    padding: 207px 30px 100px 365px;
+}
+
+.features__icon-link-notif {
+    margin-left: 55px;
+}
+
+.features__icon-link-calend {
+    margin: 8px 52px 0px 0px;
+}
+
+.features__icon-link-progres {
+    margin-top: 51px;
+    margin-bottom: 54px;
+}
+
+.features__icon-link-fav {
+    margin-right: 53px;
+}
+
+.features__icon-link-group {
+    margin-top: 10px;
+    margin-left: 55px;
+}
+
+.features__icon-img {
+    transition: transform 0.2s ease-in;
+}
+
+.features__icon-img:hover {
+    transform: scale(1.2);
+    filter: contrast(110%);
+}
+
+.features__title {
+    font-family: "Roboto-Light";
+    font-size: 48px;
+    color: rgba(90,90,90,255);
+    letter-spacing: 1.7px;
+    line-height: 57px;
+    margin: 0px 0px 5px 18px;
+}
+
+.features__title_green {
+    color: rgba(46,204,113,255);
+}
+
+.features__text {
+    font-family: "Roboto-Light";
+    font-size: 18px;
+    color: rgba(90,90,90,255);
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    margin: 18px 0px 0px 24px;
+    padding-right: 120px;
+}
+
+.simple-way {
+    height: 900px;
+    background-color: #f9f9f9;
+    background-image: url("../img/simple-way__pepper.png"), url("../img/simple-way__apple.png"), url("../img/simple-way__banana.png"), url("../img/simple-way__berry.png");
+    background-repeat: no-repeat;
+    background-position: 12% 48%, 24% 93%, 76% 94%, 85.5% 52%;
+}
+
+.simple-way__text {
+    font-family: "Roboto-Light";
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    color: rgb(90, 90, 90);
+    padding-left: 217px;
+    padding-right: 212px;
+}
+
+.simple-way__title {
+    font-family: "Roboto-Light";
+    font-size: 48px;
+    color: rgb(90, 90, 90);
+    letter-spacing: 1.5px;
+    margin-top: 112px;
+    margin-bottom: 25px;
+    padding-left: 217px;
+    padding-right: 212px;
+}
+
+.simple-way__title_green {
+    color: rgba(46,204,113,255);
+}
+
+.simple-way__iphones {
+    background-image: url("../img/simple-way__iphone-2.png"), url("../img/simple-way__iphone-1.png"), url("../img/simple-way__iphone-3.png");
+    background-repeat: no-repeat;
+    background-position: 50% 308%, 22% 145%, 77% 145%;
+}
+
+.manage-meal {
+    height: 704px;
+    background-color: #fbfcfc;
+}
+
+.manage-meal__text {
+    font-family: "Roboto-Light";
+    font-size: 18px;
+    color: rgba(90,90,90,255);
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    margin-left: 64px;
+    margin-right: 100px;
+}
+
+.manage-meal__title {
+    font-family: "Roboto-Light";
+    font-size: 48px;
+    color: rgba(90,90,90,255);
+    letter-spacing: 1.7px;
+    line-height: 57px;
+    margin-left: 10px;
+    margin-top: 18px;
+    margin-bottom: 23px;
+}
+
+.manage-meal__title_green {
+    color: rgba(46,204,113,255);
+}
+
+.manage-meal__apple {
+    font-family: "Roboto-Bold";
+    letter-spacing: 1px;
+    font-size: 18px;
+    width: 418px;
+    height: 107px;
+    margin: 17px 0px 10px 14px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-color: #dcdddc;
+    transition: transform 1s;
+}
+
+.manage-meal__sandwich {
+    font-family: "Roboto-Bold";
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 526px;
+    height: 142px;
+    margin: 20px 0px 10px 14px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-color: #dcdddc;
+    transition: transform 1s;
+}
+
+.manage-meal__salad {
+    font-family: "Roboto-Bold";
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 418px;
+    height: 107px;
+    margin: 10px 0px 10px 14px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-color: #dcdddc;
+    transition: transform 1s;
+}
+
+.manage-meal__card-title {
+    color: #2ecc71;
+}
+
+.manage-meal__card-subtitle1 {
+    font-family: "Roboto-Light";
+    font-size: 12px;
+    color: rgba(90,90,90,255);
+}
+
+.manage-meal__card-subtitle2 {
+    font-size: 14px;
+    color: #2ecc71;
+}
+
+.manage-meal__card-subtitle2_gray {
+    color: #b4b4b4;
+}
+
+.manage-meal__card-time {
+    font-size: 25px;
+    color: #b4b4b4;
+    margin-right: 15px;
+}
+
+.manage-meal__card-time_green {
+    color: #2ecc71;
+}
+
+.manage-meal__card-12h {
+    color: #b4b4b4;
+    margin-right: 15px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.manage-meal__apple:hover {
+    transform: translateX(50px);
+}
+
+.manage-meal__sandwich:hover {
+    transform: scale(0.75, 0.75);
+}
+
+.manage-meal__salad:hover {
+    transform: translateX(-50px);
+}
+
+.footer {
+    height: 442px;
+    background-color: #2ecc71;
+    background-image: url("../img/footer__background-tomato.png"), url("../img/footer__background-pepper.png"), url("../img/footer__background-berry.png"), url("../img/footer__background-banana.png"), url("../img/footer__background-apple.png");
+    background-repeat: no-repeat;
+    background-position: -5% 37%, 15.5% 27%, 24% 111%, 85.5% 13%, 105% 657%;
+}
+
+.footer__title {
+    font-family: "Roboto-Light";
+    font-size: 48px;
+    color: rgba(255,255,255,255);
+    line-height: 40px;
+    letter-spacing: 1.7px;
+    margin-top: 113px;
+    margin-bottom: 36px;
+}
+
+.footer__text {
+    font-family: "Roboto-Light";
+    font-size: 18px;
+    color: rgba(255,255,255,255);
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 57px;
+    padding-left: 205px;
+    padding-right: 208px;
+}
+
+.footer__getapp-button {
+    font-family: "Roboto-Bold";
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(46, 204, 113);
+    width: 242px;
+    border-radius: 1.25rem;
+    margin-left: 9px;
+    padding-left: 8px;
+}
+
+
+@media screen and (max-width: 1399px) {
+    
+    .about__text-container {
+        padding-left: 0px;
+    }
+
+    .about__background {
+        background-position: 76% -22%;
+    }
+
+    .features__background {
+        background-image: url("../img/features__iphone.png"), url("../img/about__background_berry.png");
+        background-repeat: no-repeat;
+        background-position: -1% 81%, 48.5% -19%;
+    }
+
+    .features__icon-link-notif, .features__icon-link-calend, .features__icon-link-progres, .features__icon-link-fav, .features__icon-link-group {
+        margin: 10px 0;
+    }
+    
+}
+
+
+@media screen and (max-width: 1199px) {
+
+    .about {
+        height: 829px;
+        background-color: #2ecc71;
+        background-image: url("../img/about__background_apple.png"), url("../img/about__background_banana.png"), url("../img/about__background_tomato.png"), url("../img/about__background_small_apple.png");
+        background-repeat: no-repeat;
+        background-position: -9% 19%, 42.5% 3.5%, 97.6% 29%, 82.3% 80%;
+    }
+
+    .about__text-container {
+        padding-left: 25px;
+    }
+
+    .features__background {
+        background-image: url("../img/features__iphone.png");
+        background-repeat: no-repeat;
+        background-position: -1% 81%;
+    }
+}
+
+
+@media screen and (max-width: 1148px) {
+
+    .about__subtitle {
+        font-size: 48px;
+    }
+
+    .about__background {
+        background-size: 80%;
+        background-position: 0% 150%;
+    }
+
+}
+
+
+@media screen and (max-width: 991px) {
+    
+    .navbar > .container-fluid {
+        justify-content: flex-start;
+    }
+
+    .navbar-nav {
+        padding-top: 24px;
+        padding-left: 24px;
+    }
+
+    .navbar-toggler {
+        color: #2ecc71;
+        border-color: #f4f4f4;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("../img/header__hamburger.svg");
+        background-repeat: no-repeat;
+    }
+
+    .about {
+        background-image: url("../img/about__background_iphone.png"), url("../img/about__background_banana.png");
+        background-repeat: no-repeat;
+        background-size: 34%;
+        background-position: 100%, 50% 15%;
+    }
+
+    .about__text-container {
+        padding-left: 16px;
+    }
+
+    .about__text {
+        padding-right: 300px;
+    }
+
+    .about__title {
+        margin-top: 76px;
+        margin-bottom: 12px;
+    }
+
+    .features__background {
+        background-image: url(../img/features__iphone.png);
+        background-repeat: no-repeat;
+        background-position: 9% 88%;
+        background-size: 20%;
+    }
+
+    .features__icon-container {
+        padding: 0px;
+    }
+
+    .features__text {
+        padding-right: 0;
+    }
+
+    .simple-way__title {
+        margin-top: 15px;
+        padding: 0 50px;
+    }
+
+    .simple-way__text {
+        padding: 0 50px;
+    }
+
+    .footer__text, .footer__title {
+        margin: 25px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .about__subtitle, .about__text {
+        padding-right: 150px;
+    }
+
+    .manage-meal__title, .manage-meal__text {
+        margin: 15px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .manage-meal__apple, .manage-meal__salad {
+        width: 70%;
+    }
+
+    .manage-meal__sandwich {
+        width: 80%;
+    }
+}

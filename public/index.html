@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>FitApp for iOS & Android - Helps you eat better</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container-xl h-100 header__container_padding">
+            <div class="row h-100 align-items-end">
+                <div class="col-xl-12">
+                    <nav class="navbar navbar-expand-lg p-0">
+                        <div class="container-fluid p-0">
+                            <a class="navbar-brand p-0 navbar-brand__fitapp-link" href="#">FitApp</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                                <div class="navbar-nav navbar__menu">
+                                    <a class="nav-link navbar__menu-link" aria-current="page" href="#">About</a>
+                                    <a class="nav-link navbar__menu-link" href="#">Features</a>
+                                    <a class="nav-link navbar__menu-link" href="#">Reviews</a>
+                                    <a class="nav-link navbar__menu-link" href="#">Blog</a>
+                                    <a class="nav-link navbar__menu-link" href="#">Support</a>
+                                </div>
+                                <div><a class="btn btn-light navbar__getapp-button" href="#get_app">Get App</a></div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="about">
+            <div class="container-xl h-100">
+                <div class="row h-100">
+                    <div class="col-md-12 col-lg-7 col-xl-7 col-xxl-6 d-flex align-items-start flex-column about__text-container">
+                        <div class="w-100 d-flex justify-content-lg-center justify-content-xl-center justify-content-xxl-start about__title"><a name="get_app"><h1><img src="./img/about__fitapp_icon.png" width="111" height="111" alt="FitApp"></h1></a></div>
+                        <div class="w-100 d-flex justify-content-lg-center justify-content-xl-center justify-content-xxl-start"><h2 class="about__subtitle">Helps you eat <strong>better.</strong></h2></div>
+                        <div class="w-100 d-flex justify-content-lg-center justify-content-xl-center justify-content-xxl-start about__text"><p class="about__paragraph">FitApp is a free calorie counting and diet app PSD template which includes high quality 9 screens. This template can be very helpful if you're planning to build food tracking application.</p></div>
+                        <div class="w-100 d-flex justify-content-lg-center justify-content-xl-center justify-content-xxl-start about__appstore">
+                            <a class="appstore__link" target="_blank" href="#"><img src="./img/about__appstore.png" width="130" height="46" alt="AppStore"></a>
+                            <a class="appstore__link" target="_blank" href="#"><img src="./img/about__googleplay.png" width="137" height="46" alt="GooglePlay"></a>
+                        </div>
+                    </div>
+                    <div class="d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block col-lg-5 col-xl-5 col-xxl-6 about__background"></div>
+                </div>
+            </div>
+        </section>
+        <section class="features">
+            <div class="container-xl h-100 p-5 p-lg-0 features__background">
+                <div class="row h-100">
+                    <div class="col-3 col-lg-6 features__icon-container">
+                        <div class="row">
+                            <div class="col d-flex justify-content-xxl-start justify-content-center">
+                                <a class="features__icon-link-notif" id="notifications" onmouseover="" onclick="showFeaturesContent(event)" role="button">
+                                    <img class="features__icon-img" src="./img/features__icon-1-notif_gray.png" alt="Ntf">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col d-flex justify-content-xxl-end justify-content-center">
+                                <a class="features__icon-link-calend" id="calendar" onclick="showFeaturesContent(event)" role="button">
+                                    <img class="features__icon-img" src="./img/features__icon-2-calendar_gray.png" alt="Clnd">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col d-flex justify-content-xxl-end justify-content-center">
+                                <a class="features__icon-link-progres" id="progress" onclick="showFeaturesContent(event)" role="button">
+                                    <img class="features__icon-img" src="./img/features__icon-3-progress_green.png" alt="Prgr">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col d-flex justify-content-xxl-end justify-content-center">
+                                <a class="features__icon-link-fav" id="favourites" onclick="showFeaturesContent(event)" role="button">
+                                    <img class="features__icon-img" src="./img/features__icon-4-fav_gray.png" alt="Fav">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col d-flex justify-content-xxl-start justify-content-center">
+                                <a class="features__icon-link-group" id="groups" onclick="showFeaturesContent(event)" role="button">
+                                    <img class="features__icon-img" src="./img/features__icon-5-group_gray.png" alt="Grp">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-9 col-lg-6 d-flex flex-column justify-content-start justify-content-lg-center">
+                        <h2 class="features__title">Best calorie <span class="features__title_green">counter app!</span></h2>
+                        <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="simple-way">
+            <div class="container-xl h-100">
+                <div class="row h-100">
+                    <div class="col-12 text-center simple-way__iphones">
+                        <h2 class="simple-way__title">A simple way to <span class="simple-way__title_green">plan your diet!</span></h2>
+                        <p class="simple-way__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="manage-meal">
+            <div class="container-xl h-100">
+                <div class="row h-100">
+                    <div class="col-12 col-xl-6 d-flex flex-column align-items-center justify-content-start justify-content-xl-center">
+                        <h2 class="text-center text-xl-start manage-meal__title">Manage your <span class="manage-meal__title_green">meal time</span></h2>
+                        <p class="text-center text-xl-start manage-meal__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                    <div class="col-12 col-xl-6 d-flex flex-column align-items-center justify-content-start justify-content-xl-center">
+                        <div class="card manage-meal__apple shadow-sm">
+                            <div class="row h-100 g-0">
+                                <div class="col-4 d-flex justify-content-center align-items-center">
+                                    <img class="" src="./img/manage-meal-card__apple.png" alt="Apple">
+                                </div>
+                                <div class="col-5 d-flex flex-column justify-content-center">
+                                    <div class="manage-meal__card-title">Apple</div>
+                                    <div class="manage-meal__card-subtitle1">Lorem ipsum dolor sit</div>
+                                    <div class="manage-meal__card-subtitle2">35 G <span class="manage-meal__card-subtitle2_gray">&bull;</span> 189 KCAL</div>
+                                </div>
+                                <div class="col-3 d-flex flex-column justify-content-center align-items-end">
+                                    <div class="manage-meal__card-time">01:00</div>
+                                    <div class="manage-meal__card-12h">PM</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card manage-meal__sandwich shadow">
+                            <div class="row h-100 g-0">
+                                <div class="col-4 d-flex justify-content-center align-items-center">
+                                    <img class="" src="./img/manage-meal-card__sandwich.png" alt="Sandwich">
+                                </div>
+                                <div class="col-5 d-flex flex-column justify-content-center">
+                                    <div class="manage-meal__card-title">Sandwich</div>
+                                    <div class="manage-meal__card-subtitle1">Lorem ipsum dolor sit</div>
+                                    <div class="manage-meal__card-subtitle2">35 G <span class="manage-meal__card-subtitle2_gray">&bull;</span> 189 KCAL</div>
+                                </div>
+                                <div class="col-3 d-flex flex-column justify-content-center align-items-end">
+                                    <div class="manage-meal__card-time manage-meal__card-time_green">03:00</div>
+                                    <div class="manage-meal__card-12h">PM</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card manage-meal__salad shadow-lg">
+                            <div class="row h-100 g-0">
+                                <div class="col-4 d-flex justify-content-center align-items-center">
+                                    <img class="" src="./img/manage-meal-card__salad.png" alt="Salad">
+                                </div>
+                                <div class="col-5 d-flex flex-column justify-content-center">
+                                    <div class="manage-meal__card-title">Salad with chicken</div>
+                                    <div class="manage-meal__card-subtitle1">Lorem ipsum dolor sit</div>
+                                    <div class="manage-meal__card-subtitle2">220 G <span class="manage-meal__card-subtitle2_gray">&bull;</span> 189 KCAL</div>
+                                </div>
+                                <div class="col-3 d-flex flex-column justify-content-center align-items-end">
+                                    <div class="manage-meal__card-time manage-meal__card-time_green">05:30</div>
+                                    <div class="manage-meal__card-12h">PM</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container-xl h-100">
+            <div class="row h-100">
+                <div class="col-12 d-flex flex-column align-items-center">
+                    <h2 class="text-center text-lg-start footer__title">Download, customize &amp; <strong>enjoy!</strong></h2>
+                    <p class="text-center footer__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <a class="btn btn-light footer__getapp-button" href="#get_app">Get App</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
